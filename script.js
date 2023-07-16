@@ -4,17 +4,22 @@
 
 // calculate a senior discount
 // variables: name, bill, pax, seniorPax, discount;
-function calculate(){
-    const fullName = document.getElementById("fullName").value;
-    const numberOfPax = document.getElementById("pax").value;
-    const numberOfSenior = document.getElementById("seniorPax").value;
-
+    function fetch(){
+        const bill = document.getElementById("bill").value;
+        console.log(bill);
+        const fullName = document.getElementById("fullName").value;
+        console.log(fullName);
+        const numberOfPax = document.getElementById("pax").value;
+        console.log(numberOfPax);
+        const numberOfSenior = document.getElementById("seniorPax").value;
+        console.log(numberOfSenior);
+    }
+    
     const calculateBill = (bill, pax, seniorPax) => {
         const totalBill = bill - (((bill / pax) * seniorPax) * 0.20);
         return totalBill;
     }
-    console.log(calculateBill(fullName, numberOfPax, numberOfSenior));
-}
+   console.log(calculateBill(1000 , 10, 1));
 
 
 
