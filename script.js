@@ -13,13 +13,15 @@
         console.log(numberOfPax);
         const numberOfSenior = document.getElementById("seniorPax").value;
         console.log(numberOfSenior);
+        console.log(calculateBill(bill ,numberOfPax, numberOfSenior));
     }
-    
+
     const calculateBill = (bill, pax, seniorPax) => {
         const totalBill = bill - (((bill / pax) * seniorPax) * 0.20);
         return totalBill;
     }
-   console.log(calculateBill(1000 , 10, 1));
+
+//    console.log(calculateBill(1000 , 10, 1));
 
 
 
