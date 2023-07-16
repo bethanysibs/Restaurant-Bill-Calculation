@@ -16,6 +16,7 @@
         console.log(calculateBill(bill ,numberOfPax, numberOfSenior));
     }
 
+    //calculate senior discount
     const calculateBill = (bill, pax, seniorPax) => {
         const totalBill = bill - (((bill / pax) * seniorPax) * 0.20);
         return totalBill;
