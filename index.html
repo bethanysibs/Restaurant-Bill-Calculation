@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>JavaScript Fundamentals – Part 2</title>
+
+  </head>
+  <body style="padding: 10px;">
+    <h1>JavaScript Fundamentals – Part 2</h1>
+
+    <div style="padding: 10px;">
+      <h2>Senior Bill Calculator</h2>
+
+      <label for="fname">Total Bill:</label>
+      <input type="text" id="bill" name="bill"><br><br>
+
+      <label for="name"></label>Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="pax"></label>Number of Guests:</label>
+      <input type="number" id="pax" name="pax"><br><br>
+
+      <label for="pax"></label>Number of Senior Citizens:</label>
+      <input type="number" id="seniorPax" name="seniorPax"><br><br>
+
+      <button onclick="calculateBill()">Calculate</button>
+
+  <br><br>
+    <table>
+      <tr>
+        <th id="guestName">Guest Name</th>
+        <th id="grossBill">Bill</th>
+        <th id="numberGuests">No. of Pax</th>
+        <th id="numberSenior">No. of Senior</th>
+        <th id="tBill">Total Bill</th>
+      </tr>
+      <tr>
+        <td id="guestName"></td>
+        <td id="grossBill"></td>
+        <td id="numberGuests"></td>
+        <td id="numberSenior"></td>
+        <td id="tBill"></td>
+      </tr>
+    </table>
+  </div>
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
