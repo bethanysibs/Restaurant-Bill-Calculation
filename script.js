@@ -4,6 +4,8 @@
 
 // calculate a senior discount
 // variables: name, bill, pax, seniorPax, discount;
+
+//interchange both functions.. according to the lesson.. base it on the lesson
     function fetch(){
         const bill = document.getElementById("bill").value;
         console.log(bill);
